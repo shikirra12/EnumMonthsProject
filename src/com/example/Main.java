@@ -12,8 +12,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Choose One of the Months");
 
-        for (Month month : Month.values()) {
 
+        for (Month month : Month.values()) {
             System.out.println(month.getEnglishName());
         }
 
